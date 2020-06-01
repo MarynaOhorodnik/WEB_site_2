@@ -153,6 +153,7 @@ p, ul{
     #top_img{
         align-self: center;
         width: 300px;
+        max-width: 90%;
     }
 
     .column_rec, .colm_hd, .colm_tabl, .colm_img_1, .colm_img_2{
@@ -160,7 +161,18 @@ p, ul{
         width: 100%;
     }
 
+    img[id ^= "rec"]{
+        max-width: 90%;
+    }
+    
+    div.flex_2 table{
+        font-size: 15px;
+    }
 
+    .column_rec, .colm_img_2, .text_ft{
+        font-size: 20px;
+    }
+    
     *{
         margin: 2px 4px;
     }
